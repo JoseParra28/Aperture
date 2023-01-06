@@ -1,3 +1,49 @@
 body {
-    color: red;
+    margin: 0;
+    background-color: rgb(29, 28, 28);
+}
+#sesh{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+} 
+.message {
+    color: bisque;
+    font-size: 3em;
+    justify-content: center;
+    text-align: center;
+}
+.man {
+    color: bisque;
+    font-size: 3em;
+    justify-content: center;
+    text-align: center;
+    
+}
+.test {
+    color: bisque;
+    font-size: 3em;
+    justify-content: center;
+    text-align: center;
+}
+.btn {
+    background-color: antiquewhite;
+    width: 25%;
+    display: flex;
+    position: relative;
+    margin: 1%;
+    left: 36.7%;
+}
+.btn:hover{
+    background-color: rgb(103, 25, 25);
+}
+.change {
+    background-color: red;
+    /* margin: 5%;
+    left: 30%;
+    background-color: rgb(203, 197, 197);
+    font-size: 2em;
+    text-align: center; */
+    
 }

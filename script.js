@@ -1,11 +1,16 @@
-const joseArray = ['jose', 'sara', 'peter', 'michael']
-console.log(joseArray)
+'use strict'
+document.querySelector('.message').textContent = 'Well hello there';
+console.log(document.querySelector('.test').textContent) 
 
-const jonas = {
-    firstName: 'jonas',
-    lastName: 'parra',
-    age: 2022 - 1993,
-    job: 'sales',
-    friends: ['jose', 'sara', 'peter', 'michael']
-}
-console.log(jonas)
+document.querySelector('.btn').addEventListener('click',function(){
+console.log(document.querySelector('.message').textContent = 'You clicked me!')
+})
+document.getElementsByClassName = ('change')
+
+function changeColor(element){
+    let currentColor = element.style.backgroundColor;
+    if (currentColor == "red"){
+        onclick(element.backgroundColor = "green");
+    // } else {
+    //     element.backgroundColor = "blue"
+    }}
