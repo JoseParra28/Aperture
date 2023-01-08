@@ -34,3 +34,18 @@ menu.addEventListener('click',function(){
     menu.classList.toggle('is-active')
     menuLinks.classList.toggle('active');
 })
+
+let spanTexts = document.getElementsByTagName("services__card");
+window.onload = function(){
+    for(spanText of spanTexts){
+        spanText.classList.add("active");
+    }
+}
+ScrollReveal({ 
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+ });
+ ScrollReveal().reveal('.services', { delay: 500 });
+ 
