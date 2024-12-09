@@ -5,7 +5,13 @@ li {
 }
 a {
     color: white;
-    
+
+}
+.nav-items ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
 }
 
 footer{
@@ -49,4 +55,37 @@ footer{
     color: #acaaad;
     margin-bottom: 20px;
     list-style: none;
+}
+
+
+
+@media (max-width: 900px){
+    nav li{
+        display: none;
+    }
+    .nav-items ul {
+        gap: 20px;
+    }
+    #show-menu {
+        display: block;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__items {
+        margin: 4%;
+    }
+    .social-media  {
+        display: flex;
+        justify-content: space-around;
+    }
+    .social-media ul  {
+
+        justify-content: space-around;
+    }
+    .gallery-section {
+        height: 269vh;
+    }
+
 }
